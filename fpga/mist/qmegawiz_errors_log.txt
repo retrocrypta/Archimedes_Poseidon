@@ -1,0 +1,46 @@
+
+
+F:/FPGA-POSEIDON/archimedes-master/fpga/mist/pll_vidc_24.v
+
+Oct 02 09AM:17:43>: Error in CNX file format.
+
+Error messages are listed in file
+F:/FPGA-POSEIDON/archimedes-master/fpga/mist/pll_vidc_24.cnxerr.
+
+Can't create the custom megafunction variation file(s)
+
+F:/FPGA-POSEIDON/archimedes-master/fpga/mist/pll_vidc_24.v
+
+Oct 02 09AM:19:14>: Error in CNX file format.
+
+Error messages are listed in file
+F:/FPGA-POSEIDON/archimedes-master/fpga/mist/pll_vidc_24.cnxerr.
+
+Can't create the custom megafunction variation file(s)
+
+F:/FPGA-POSEIDON/archimedes-master/fpga/mist/pll_vidc_24.v
+
+Oct 02 09AM:20:42>: Error in CNX file format.
+
+Error messages are listed in file
+F:/FPGA-POSEIDON/archimedes-master/fpga/mist/pll_vidc_24.cnxerr.
+
+Can't create the custom megafunction variation file(s)
+
+F:/FPGA-POSEIDON/archimedes-master/fpga/mist/pll_vidc_25.v
+
+Oct 02 09AM:24:10>: Error in CNX file format.
+
+Error messages are listed in file
+F:/FPGA-POSEIDON/archimedes-master/fpga/mist/pll_vidc_25.cnxerr.
+
+Can't create the custom megafunction variation file(s)
+
+F:/FPGA-POSEIDON/archimedes-master/fpga/mist/clockgen.v
+
+Oct 02 02PM:46:48>: Error in CNX file format.
+
+Error messages are listed in file
+F:/FPGA-POSEIDON/archimedes-master/fpga/mist/clockgen.cnxerr.
+
+Can't create the custom megafunction variation file(s)
