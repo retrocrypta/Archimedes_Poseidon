@@ -223,12 +223,13 @@ wire[63:0] rtc;
 // the top file should generate the correct clocks for the machine
 
 clockgen CLOCKS(
-	.inclk0	(CLOCK_27),
-	.c0		(SDRAM_CLK),// 120 MHz, shifted
-	.c1		(clk_mem), // 120 MHz
-	.c2      (clk_sys), // 40 MHz
-	.locked	(pll_ready)  // pll locked output
+  .inclk0  (CLOCK_27),
+  .c0    (),// 120 MHz, shifted
+  .c1    (clk_mem), // 120 MHz
+  .c2      (clk_sys), // 40 MHz
+  .locked  (pll_ready)  // pll locked output
 );
+assign SDRAM_CLK=~clk_mem;
 
 reg [3:0] clken_counter;
 reg       clk8m_en;
@@ -428,7 +429,7 @@ mist_video #(.COLOR_DEPTH(4), .SD_HCNT_WIDTH(12), .OUT_COLOR_DEPTH(VGA_BITS)) mi
 	// 0 = HVSync 31KHz, 1 = CSync 15KHz
 	.scandoubler_disable ( ~scandoubler_en ),
 	// disable csync without scandoubler
-	.no_csync    ( no_csync   ),
+	.no_csync    ( 1          ),
 	// YPbPr always uses composite sync
 	.ypbpr       ( ypbpr      ),
 	// Rotate OSD [0] - rotate [1] - left or right
